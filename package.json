@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "name": "a-page-amidst-others",
+  "description": "Practice portfolio project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seblinl/a-page-amidst-others.git"
+  },
+  "author": "SLL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seblinl/a-page-amidst-others/issues"
+  },
+  "homepage": "https://github.com/seblinl/a-page-amidst-others#readme"
+}
