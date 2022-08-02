@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+
+#container {
+  max-width: 900px;
+}
+
+#other-tab-pane .card-body {
+  text-align: center;
+}
+#other-tab-pane .card-link:not(:last-child)::after {
+  content: ":";
+  margin-left: 1rem;
+  color: grey;
+}
+
+@media (max-width: 767px) {
+  footer > div {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #other-tab-pane .card-body {
+    display: flex;
+    align-items: center;
+  }
+  #other-tab-pane .card-title {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid grey;
+  }
+}
