@@ -6,10 +6,11 @@ a {
   max-width: 900px;
 }
 
-#other-tab-pane .card-body {
-  text-align: center;
+.accordion-body .card {
+  margin-top: 0.25rem;
 }
-#other-tab-pane .card-link:not(:last-child)::after {
+
+#otherContent .card-link:not(:last-child)::after {
   content: ":";
   margin-left: 1rem;
   color: grey;
@@ -23,11 +24,11 @@ a {
 }
 
 @media (min-width: 768px) {
-  #other-tab-pane .card-body {
+  #otherContent .card-body {
     display: flex;
     align-items: center;
   }
-  #other-tab-pane .card-title {
+  #otherContent .card-title {
     margin-right: 1rem;
     padding-right: 1rem;
     border-right: 1px solid grey;

@@ -1,0 +1,53 @@
+{
+  "css": [
+    {
+      "title": "Pricing Panel",
+      "text": "Graphical panel containing info about price, features and user type.",
+      "link": [
+        {
+          "text": "Pricing info",
+          "url": "https://seblinl.github.io/udemy/csteele_web/css/pricing_panel/index.html"
+        }
+      ]
+    },
+    {
+      "text": "Text formatting a Picasso themed info page.",
+      "link": [
+        {
+          "text": "Picasso info",
+          "url": "https://seblinl.github.io/udemy/csteele_web/css/picasso/picasso.html"
+        }
+      ]
+    },
+    {
+      "text": "Basic responsive page via media queries.",
+      "link": [
+        {
+          "text": "Media queries",
+          "url": "https://seblinl.github.io/udemy/csteele_web/css/mediaqueries/mediaqueries.html"
+        }
+      ]
+    },
+    {
+      "text": "Small photo gallery with scalable images.",
+      "link": [
+        {
+          "text": "Photo gallery",
+          "url": "https://seblinl.github.io/udemy/csteele_web/css/photosite/photosite.html"
+        }
+      ]
+    },
+    {
+      "text": "A button with effects and transitions.",
+      "link": [
+        {
+          "text": "Responsive button",
+          "url": "https://seblinl.github.io/udemy/csteele_web/css/hover_button/hover_button.html"
+        }
+      ]
+    }
+  ],
+  "bootstrap": [],
+  "javascript": [],
+  "javascriptApi": []
+}

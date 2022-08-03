@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Udemy",
+    "links": [
+      {
+        "text": "Profile (for logged in users)",
+        "url": "https://www.udemy.com/user/sebastian-lindberg-lindeskov/"
+      }
+    ]
+  },
+  {
+    "title": "Sololearn",
+    "links": [
+      {
+        "text": "Profile",
+        "url": "https://www.sololearn.com/profile/22830702"
+      },
+      {
+        "text": "Responsive Web Project (work in progress)",
+        "url": "https://seblinl.github.io/sololearn/responsive_web/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Codepen",
+    "links": [
+      {
+        "text": "Profile",
+        "url": "https://codepen.io/Tzungun"
+      }
+    ]
+  },
+  {
+    "title": "Github",
+    "links": [
+      {
+        "text": "Profile",
+        "url": "https://github.com/seblinl"
+      },
+      {
+        "text": "Portfolio Repo",
+        "url": "https://github.com/seblinl/a-page-amidst-others"
+      },
+      {
+        "text": "Portfolio (Old, static)",
+        "url": "https://seblinl.github.io"
+      }
+    ]
+  }
+]
