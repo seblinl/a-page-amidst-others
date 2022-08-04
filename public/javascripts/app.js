@@ -6,19 +6,23 @@ import {
   createText,
 } from "./scripts.js";
 
-const udemyCSS = document.querySelector("#cssContent");
+const udemyContent = document.querySelectorAll(".accordion-body");
 const otherContent = document.querySelector("#otherContent");
 
 const getData = async (tab) => {
-  const res = await fetch("/data/" + tab);
-  const data = await res.json();
+  try {
+    const res = await fetch("/data/" + tab);
+    const data = await res.json();
 
-  return data;
+    return data;
+  } catch (err) {
+    console.error(err);
+  }
 };
 
 const populateUdemy = async (
   getData,
-  parent,
+  parents,
   newCard,
   newLink,
   newFooter,
@@ -26,18 +30,18 @@ const populateUdemy = async (
   newText
 ) => {
   const data = await getData("udemy");
-  for (let section in data) {
-    for (let item of data[section]) {
+  for (let i = 0; i < parents.length; i++) {
+    for (let item of data[i]) {
       const { card, cardBody } = newCard();
       if (item.title) {
         const cardTitle = newTitle(item.title);
         cardBody.appendChild(cardTitle);
       }
-      const cardText = newText(item.text);
+      const cardText = newText(item.bodyText);
       const cardFooter = newFooter();
-      const cardLink = newLink(item.link);
+      const cardLink = newLink(item.links);
 
-      parent.appendChild(card);
+      parents[i].appendChild(card);
       card.appendChild(cardBody);
       cardBody.appendChild(cardText);
       card.appendChild(cardFooter);
@@ -62,7 +66,7 @@ const populateOther = async (getData, parent, newCard, newTitle, newLinks) => {
 
 populateUdemy(
   getData,
-  udemyCSS,
+  udemyContent,
   createCard,
   createLinks,
   createFooter,

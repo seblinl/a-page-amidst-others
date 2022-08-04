@@ -10,16 +10,14 @@ a {
   margin-top: 0.25rem;
 }
 
-#otherContent .card-link:not(:last-child)::after {
-  content: ":";
-  margin-left: 1rem;
-  color: grey;
-}
-
 @media (max-width: 767px) {
   footer > div {
     max-width: 450px;
     margin: 0 auto;
+  }
+
+  #otherContent .card-link + .card-link {
+    margin-left: 0;
   }
 }
 
@@ -32,5 +30,10 @@ a {
     margin-right: 1rem;
     padding-right: 1rem;
     border-right: 1px solid grey;
+  }
+  #otherContent .card-link + .card-link::before {
+    content: ":";
+    margin-right: 1rem;
+    color: grey;
   }
 }

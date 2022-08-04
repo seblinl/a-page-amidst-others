@@ -34,7 +34,7 @@ const createLinks = (links) => {
   const cardLinks = [];
   for (let link of links) {
     const newLink = document.createElement("a");
-    newLink.className = "card-link";
+    newLink.className = "card-link d-block d-md-inline";
     newLink.textContent = link.text;
     newLink.href = link.url;
     cardLinks.push(newLink);
