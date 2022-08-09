@@ -1,40 +1,40 @@
-const createCard = () => {
+const createCard = (cardClasses, bodyClasses) => {
   const card = document.createElement("div");
-  card.className = "card mt-1";
+  card.className = cardClasses;
   const cardBody = document.createElement("div");
-  cardBody.className = "card-body";
+  cardBody.className = bodyClasses;
 
   return { card, cardBody };
 };
 
-const createTitle = (title) => {
+const createTitle = (title, classes) => {
   const cardTitle = document.createElement("h3");
-  cardTitle.className = "card-title text-center";
+  cardTitle.className = classes;
   cardTitle.textContent = title;
 
   return cardTitle;
 };
 
-const createText = (text) => {
+const createText = (text, classes) => {
   const cardText = document.createElement("p");
-  cardText.className = "card-text";
+  cardText.className = classes;
   cardText.textContent = text;
 
   return cardText;
 };
 
-const createFooter = () => {
+const createFooter = (classes) => {
   const cardFooter = document.createElement("div");
-  cardFooter.className = "card-footer";
+  cardFooter.className = classes;
 
   return cardFooter;
 };
 
-const createLinks = (links) => {
+const createLinks = (links, classes) => {
   const cardLinks = [];
   for (let link of links) {
     const newLink = document.createElement("a");
-    newLink.className = "card-link d-block d-md-inline";
+    newLink.className = classes;
     newLink.textContent = link.text;
     newLink.href = link.url;
     cardLinks.push(newLink);
