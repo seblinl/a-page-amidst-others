@@ -1,3 +1,14 @@
+const getData = async (tab) => {
+  try {
+    const res = await fetch("/data/" + tab);
+    const data = await res.json();
+
+    return data;
+  } catch (err) {
+    console.error(err);
+  }
+};
+
 const createCard = (cardClasses, bodyClasses) => {
   const card = document.createElement("div");
   card.className = cardClasses;
@@ -43,4 +54,11 @@ const createLinks = (links, classes) => {
   return cardLinks;
 };
 
-export { createCard, createTitle, createLinks, createFooter, createText };
+export {
+  getData,
+  createCard,
+  createTitle,
+  createLinks,
+  createFooter,
+  createText,
+};
