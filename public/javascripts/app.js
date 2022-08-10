@@ -5,7 +5,7 @@ import {
   createLinks,
   createFooter,
   createText,
-} from "./scripts.js";
+} from "./cardFactory.js";
 
 const udemyContent = document.querySelectorAll(".accordion-body");
 const otherContent = document.querySelector("#otherContent");
