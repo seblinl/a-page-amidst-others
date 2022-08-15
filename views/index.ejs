@@ -1,5 +1,17 @@
-<!-- Head, header, nav -->
+<!-- Head, header -->
 <%- include("partials/top") %>
+
+    <!-- Tabbed navigation -->
+    <nav>
+        <ul class="nav nav-tabs ps-1 ps-md-3" id="navTabs">
+            <li class="nav-item"><a class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" id="udemy-tab" data-bs-toggle="tab"
+                    data-bs-target="#udemy-tab-pane" href="#">Udemy</a></li>
+            <li class="nav-item"><a class="nav-link" id="other-tab" data-bs-toggle="tab"
+                    data-bs-target="#other-tab-pane" href="#">Other</a></li>
+        </ul>
+    </nav>
 
     <!-- Tabbed content -->
     <div class="tab-content border border-top-0 pt-2 p-1 p-md-2 p-lg-3" id="tabContent">
@@ -19,5 +31,5 @@
         </div>
     </div>
 
-    <!-- Footer, script -->
+    <!-- Footer, scripts -->
     <%- include("partials/bottom") %>

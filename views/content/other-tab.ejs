@@ -1,40 +1,23 @@
-<!-- Other tab contents -->
+<!-- Other tab content -->
+
 <h1>For A Few Links More</h1>
 <p>A collection of links to sites of a similar nature.</p>
 
 <div id="otherContent">
-    <!-- <div class="card mb-1">
-        <div class="card-body">
-            <h3 class="card-title">
-                Udemy
-            </h3>
-            <a href="https://www.udemy.com/user/sebastian-lindberg-lindeskov/" class="card-link">Profile (for logged in
-                users)</a>
-        </div>
-    </div>
 
-    <div class="card mb-1">
-        <div class="card-body">
-            <h3 class="card-title">Sololearn</h3>
-            <a href="https://www.sololearn.com/profile/22830702" class="card-link">Profile</a>
-            <a href="https://seblinl.github.io/sololearn/responsive_web/index.html" class="card-link">Responsive Web
-                Project
-                (<abbr title="Work In Progress">WIP</abbr>)</a>
+    <% for (let card of otherData) {%>
+        <div class="card mt-1">
+            <div class="card-body">
+                <h3 class="card-title text-center me-md-3 pe-md-3">
+                    <%= card.title %>
+                </h3>
+                <% card.links.forEach(link=> { %>
+                    <a href="<%= link.url %>" class="card-link text-center d-block d-md-inline">
+                        <%= link.text %>
+                    </a>
+                    <% }); %>
+            </div>
         </div>
-    </div>
+        <% } %>
 
-    <div class="card mb-1">
-        <div class="card-body">
-            <h3 class="card-title">Github</h3>
-            <a href="https://github.com/seblinl" class="card-link">Profile</a>
-            <a href="https://github.com/seblinl/a-page-amidst-others" class="card-link">Portfolio Repo</a>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-body">
-            <h3 class="card-title">Codepen</h3>
-            <a href="https://codepen.io/Tzungun" class="card-link">Profile</a>
-        </div>
-    </div> -->
 </div>

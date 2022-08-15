@@ -1,81 +1,65 @@
+<!-- Udemy tab content -->
+
 <h1>Web Bootcamp 2022</h1>
 <p>Projects and tasks from the Udemy course by Colt Steele, <a
         href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp
         2022</a>.</p>
 
 <div id="udemyContent" class="accordion">
-    <!-- CSS -->
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseCSS">
-                Cascading Style Sheets
-            </button>
-        </h2>
-        <div id="collapseCSS" class="accordion-collapse collapse" data-bs-parent="#udemyContent">
-            <div class="accordion-body p-1" id="cssContent">
-                <p>Styling with CSS</p>
+
+    <!-- Accordion item for each section -->
+    <% udemyData.forEach(item=> { %>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#<%= item.collapse_id %>">
+                    <%= item.section %>
+                </button>
+            </h2>
+
+            <div id="<%= item.collapse_id %>" class="accordion-collapse collapse" data-bs-parent="#udemyContent">
+                <div class="accordion-body p-1">
+                    <p class="m-md-2">
+                        <%= item.section_text %>
+                    </p>
+
+                    <!-- Card for each project -->
+                    <% item.content.forEach(card=> { %>
+                        <div class="card mt-1">
+                            <div class="card-body d-md-flex align-items-md-baseline">
+                                <% if (card.title) { %>
+                                    <h3 class="card-title text-center me-md-3 pe-md-3">
+                                        <%= card.title %>
+                                    </h3>
+                                    <% } %>
+                                        <p class="card-text text-center">
+                                            <%= card.bodyText %>
+                                        </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="<%= card.links[0].url %>"
+                                    class="card-link d-block d-md-inline text-center text-md-start">
+                                    <%= card.links[0].text %>
+                                </a>
+                            </div>
+                        </div>
+                        <% }) %>
+                            <!-- Card End -->
+                </div>
             </div>
         </div>
-    </div>
-    <!-- CSS END -->
+        <% }) %>
+            <!-- Section End -->
 
-    <!-- BS -->
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseBS">
-                Bootstrap
-            </button>
-        </h2>
-        <div id="collapseBS" class="accordion-collapse collapse" data-bs-parent="#udemyContent">
-            <div class="accordion-body p-1" id="bsContent">
-                <p>Introduction to working with frameworks</p>
-            </div>
-        </div>
-    </div>
-    <!-- BS END -->
-
-    <!-- JS -->
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseJS">
-                JavaScript
-            </button>
-        </h2>
-        <div id="collapseJS" class="accordion-collapse collapse" data-bs-parent="#udemyContent">
-            <div class="accordion-body p-1" id="jsContent">
-                <p>Making a website reactive and interactive</p>
-            </div>
-        </div>
-    </div>
-    <!-- JS END -->
-
-    <!-- JS/API -->
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseHTML">
-                JavaScript / API
-            </button>
-        </h2>
-        <div id="collapseHTML" class="accordion-collapse collapse" data-bs-parent="#udemyContent">
-            <div class="accordion-body p-1" id="jsApiContent">
-                <p>Getting data from APIs</p>
-            </div>
-        </div>
-    </div>
-    <!-- JS/API END -->
-
-    <nav class="text-center pt-4">
-        <a class="nav-link" href="#">
-            Top
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
-            </svg>
-        </a>
-    </nav>
+            <nav class="text-center pt-4">
+                <a class="nav-link" href="#">
+                    Top
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </a>
+            </nav>
 </div>

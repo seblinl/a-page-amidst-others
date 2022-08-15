@@ -1,3 +1,5 @@
+// Alternative method of populating with content
+
 import {
   getData,
   createCard,

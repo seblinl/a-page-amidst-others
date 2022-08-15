@@ -1,175 +1,195 @@
 [
-  [
-    {
-      "title": "Pricing Panel",
-      "bodyText": "Graphical panel containing info about price, features and user type.",
-      "links": [
-        {
-          "text": "Pricing info",
-          "url": "https://seblinl.github.io/udemy/csteele_web/css/pricing_panel/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Text formatting a Picasso themed info page.",
-      "links": [
-        {
-          "text": "Picasso info",
-          "url": "https://seblinl.github.io/udemy/csteele_web/css/picasso/picasso.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Basic responsive page via media queries.",
-      "links": [
-        {
-          "text": "Media queries",
-          "url": "https://seblinl.github.io/udemy/csteele_web/css/mediaqueries/mediaqueries.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Small photo gallery with scalable images.",
-      "links": [
-        {
-          "text": "Photo gallery",
-          "url": "https://seblinl.github.io/udemy/csteele_web/css/photosite/photosite.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "A button with effects and transitions.",
-      "links": [
-        {
-          "text": "Responsive button",
-          "url": "https://seblinl.github.io/udemy/csteele_web/css/hover_button/hover_button.html"
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "title": "Museum of Candy",
-      "bodyText": "Single page styling and layouting practice.",
-      "links": [
-        {
-          "text": "Candy Museum",
-          "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/museum_of_candy/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Practice applying various Bootstrap functionalities and styles.",
-      "links": [
-        {
-          "text": "Bootstrap 1",
-          "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/bootstrap_test.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Nav and form practice.",
-      "links": [
-        {
-          "text": "Bootstrap 2",
-          "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/bootstrap_test2.html"
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "title": "Score Keeper",
-      "bodyText": "Table tennis score keeping app. Styled with Bulma framework.",
-      "links": [
-        {
-          "text": "Keeping the Score",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/score_keeper/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Simple 'guess the number' game.",
-      "links": [
-        {
-          "text": "Game of Guesses",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/guessing_game/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "'To-Do' list application.",
-      "links": [
-        {
-          "text": "Things To-Do",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/todo-list/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Random background colors.",
-      "links": [
-        {
-          "text": "Random Colors",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/random_color/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Comment posting app.",
-      "links": [
-        {
-          "text": "Comment",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/form_events_ext/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Boxes with nonsensical responses.",
-      "links": [
-        {
-          "text": "Little Boxes",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/color_boxes/index.html"
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "bodyText": "Random dad jokes.",
-      "links": [
-        {
-          "text": "Jokes",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/get_dad_joke/axios.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Search for TV shows.",
-      "links": [
-        {
-          "text": "TV-Shows",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/tv_show_search/tv_search.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Star Wars information.",
-      "links": [
-        {
-          "text": "Star Wars-verse",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/sw_api/index.html"
-        }
-      ]
-    },
-    {
-      "bodyText": "Pokémon sprites en masse.",
-      "links": [
-        {
-          "text": "Pokésprites",
-          "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/pokemon_demo/index.html"
-        }
-      ]
-    }
-  ]
+  {
+    "collapse_id": "collapseCSS",
+    "section": "Cascading Style Sheets",
+    "section_text": "Styling with CSS",
+    "content": [
+      {
+        "title": "Pricing Panel",
+        "bodyText": "Graphical panel containing info about price, features and user type.",
+        "links": [
+          {
+            "text": "Pricing info",
+            "url": "https://seblinl.github.io/udemy/csteele_web/css/pricing_panel/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Text formatting a Picasso themed info page.",
+        "links": [
+          {
+            "text": "Picasso info",
+            "url": "https://seblinl.github.io/udemy/csteele_web/css/picasso/picasso.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Basic responsive page via media queries.",
+        "links": [
+          {
+            "text": "Media queries",
+            "url": "https://seblinl.github.io/udemy/csteele_web/css/mediaqueries/mediaqueries.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Small photo gallery with scalable images.",
+        "links": [
+          {
+            "text": "Photo gallery",
+            "url": "https://seblinl.github.io/udemy/csteele_web/css/photosite/photosite.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "A button with effects and transitions.",
+        "links": [
+          {
+            "text": "Responsive button",
+            "url": "https://seblinl.github.io/udemy/csteele_web/css/hover_button/hover_button.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "collapse_id": "collapseBS",
+    "section": "Bootstrap",
+    "section_text": "Introduction to working with frameworks",
+    "content": [
+      {
+        "title": "Museum of Candy",
+        "bodyText": "Single page styling and layouting practice.",
+        "links": [
+          {
+            "text": "Candy Museum",
+            "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/museum_of_candy/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Practice applying various Bootstrap functionalities and styles.",
+        "links": [
+          {
+            "text": "Bootstrap 1",
+            "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/bootstrap_test.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Nav and form practice.",
+        "links": [
+          {
+            "text": "Bootstrap 2",
+            "url": "https://seblinl.github.io/udemy/csteele_web/bootstrap/bootstrap_test2.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "collapse_id": "collapseJS",
+    "section": "JavaScript",
+    "section_text": "Making a website reactive and interactive",
+    "content": [
+      {
+        "title": "Score Keeper",
+        "bodyText": "Table tennis score keeping app. Styled with Bulma framework.",
+        "links": [
+          {
+            "text": "Keeping the Score",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/score_keeper/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Simple 'guess the number' game.",
+        "links": [
+          {
+            "text": "Game of Guesses",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/guessing_game/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "'To-Do' list application.",
+        "links": [
+          {
+            "text": "Things To-Do",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/todo-list/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Random background colors.",
+        "links": [
+          {
+            "text": "Random Colors",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/random_color/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Comment posting app.",
+        "links": [
+          {
+            "text": "Comment",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/form_events_ext/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Boxes with nonsensical responses.",
+        "links": [
+          {
+            "text": "Little Boxes",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/color_boxes/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "collapse_id": "collapseAPI",
+    "section": "Application Programming Interface",
+    "section_text": "Getting data from APIs",
+    "content": [
+      {
+        "bodyText": "Random dad jokes.",
+        "links": [
+          {
+            "text": "Jokes",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/get_dad_joke/axios.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Search for TV shows.",
+        "links": [
+          {
+            "text": "TV-Shows",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/tv_show_search/tv_search.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Star Wars information.",
+        "links": [
+          {
+            "text": "Star Wars-verse",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/ajax_api/sw_api/index.html"
+          }
+        ]
+      },
+      {
+        "bodyText": "Pokémon sprites en masse.",
+        "links": [
+          {
+            "text": "Pokésprites",
+            "url": "https://seblinl.github.io/udemy/csteele_web/javascript/dom/pokemon_demo/index.html"
+          }
+        ]
+      }
+    ]
+  }
 ]

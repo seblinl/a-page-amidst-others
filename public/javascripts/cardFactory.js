@@ -1,3 +1,5 @@
+// Alternative card creation method
+
 const getData = async (tab) => {
   try {
     const res = await fetch("/data/" + tab);

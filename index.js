@@ -12,15 +12,15 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index", { udemyData, otherData });
 });
 
-app.get("/data/udemy", (req, res) => {
-  res.send(udemyData);
-});
-app.get("/data/other", (req, res) => {
-  res.send(otherData);
-});
+// app.get("/data/udemy", (req, res) => {
+//   res.send(udemyData);
+// });
+// app.get("/data/other", (req, res) => {
+//   res.send(otherData);
+// });
 
 app.listen(PORT, () => {
   console.log("Listening on port:", PORT);
