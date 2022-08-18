@@ -6,10 +6,6 @@ a {
   max-width: 900px;
 }
 
-.accordion-body .card {
-  margin-top: 0.25rem;
-}
-
 @media (max-width: 767px) {
   footer > div {
     max-width: 450px;
@@ -22,6 +18,13 @@ a {
 }
 
 @media (min-width: 768px) {
+  #udemyContent .card:first-of-type {
+    width: 100%;
+  }
+  #udemyContent .card ~ .card {
+    max-width: 30%;
+    margin: 0.25rem;
+  }
   #otherContent .card-body {
     display: flex;
     align-items: center;
@@ -30,7 +33,7 @@ a {
     border-right: 1px solid grey;
   }
   #otherContent .card-link + .card-link::before {
-    content: ":";
+    content: ">";
     margin-right: 1rem;
     color: grey;
   }
